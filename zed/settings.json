@@ -1,0 +1,72 @@
+{
+  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "languages": {
+    "Java": {
+      "colorize_brackets": true,
+      "inlay_hints": {
+        "enabled": false
+      },
+      "show_whitespaces": "all",
+      "code_actions_on_format": {
+        "source.organizeImports": true
+      },
+      "tab_size": 4,
+      "hard_tabs": false,
+      "format_on_save": "off",
+      "formatter": "language_server"
+    }
+  },
+  "lsp": {
+    "jdtls": {
+      "initialization_options": {
+        "settings": {
+          "java": {
+            "completion": {
+              "favoriteStaticMembers": [],
+              "filteredTypes": []
+            },
+            "codeGeneration": {
+              "useBlocks": true
+            },
+            "sources": {
+              "organizeImports": {
+                "starThreshold": 99,
+                "staticStarThreshold": 99
+              }
+            },
+            "format": {
+              "enabled": true,
+              "settings": {
+                "url": "/Users/imreturcsan/.config/zed/JavaFormatter.xml",
+                "profile": "JavaFormatter"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "prettier": {
+    "allowed": false
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  "session": {
+    "trust_all_worktrees": true
+  },
+  "vim_mode": true,
+  "base_keymap": "JetBrains",
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Jetbrains Darcula Zed Theme"
+  },
+  "tabs": {
+    "file_icons": true
+  },
+  "format_on_save": "off"
+}
